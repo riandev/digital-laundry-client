@@ -1,0 +1,7 @@
+.reviews-top{
+    background-image: url(../../../images/quote.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: contain;
+    height: 150px;
+}

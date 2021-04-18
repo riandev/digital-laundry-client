@@ -1,0 +1,19 @@
+.capacity-container{
+    background-image: url(../../../images/capacitybg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 450px;
+    z-index: 1;
+}
+.capacity-container::before{
+    content: " ";
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    background: rgb(36, 41, 73);
+    opacity: .9;
+    top: 0;
+    z-index: -1;
+}
