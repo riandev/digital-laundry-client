@@ -12,6 +12,7 @@ import OurCapacity from "./components/Home/OurCapacity/OurCapacity";
 import Reviews from "./components/Home/Reviews/Reviews";
 import WhyChooseUs from "./components/Home/WhyChooseUs/WhyChooseUs";
 import Footer from "./components/Home/Footer/Footer";
+import Navigation from "./components/Home/Navigation/Navigation";
 
 export const userContext = createContext();
 
@@ -37,12 +38,17 @@ function App() {
             <Login></Login>
           </Route>
           <Route path="/about">
+            <Navigation></Navigation>
             <OurCapacity></OurCapacity>
+            <Footer></Footer>
           </Route>
           <Route path="/blogs">
+            <Navigation></Navigation>
             <Reviews></Reviews>
+            <Footer></Footer>
           </Route>
           <Route path="/contactus">
+            <Navigation></Navigation>
             <WhyChooseUs></WhyChooseUs>
             <Footer></Footer>
           </Route>

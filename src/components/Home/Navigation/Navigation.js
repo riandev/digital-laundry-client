@@ -14,7 +14,7 @@ const Navigation = () => {
           height="30"
           className="d-inline-block align-top"
         />{" "}
-        Digital Lundry
+        Digital Laundry
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
