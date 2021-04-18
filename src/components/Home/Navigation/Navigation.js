@@ -6,7 +6,7 @@ import logo from "../../../images/logo.png";
 const Navigation = () => {
   return (
     <Navbar expand="lg">
-      <Navbar.Brand href="/home">
+      <Navbar.Brand as={Link} to="/home">
         <img
           alt=""
           src={logo}
@@ -19,10 +19,10 @@ const Navigation = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
-          <Nav.Link style={{ color: "#1cc7c1" }} className="mr-5" href="#home">
+          <Nav.Link style={{ color: "#1cc7c1" }} className="mr-5" as={Link} to="/home">
             Home
           </Nav.Link>
-          <Nav.Link style={{ color: "#1cc7c1" }} className="mr-5" href="#link">
+          <Nav.Link style={{ color: "#1cc7c1" }} className="mr-5" as={Link} to="/about">
             About
           </Nav.Link>
           <Nav.Link
@@ -33,18 +33,10 @@ const Navigation = () => {
           >
             Dashboard
           </Nav.Link>
-          <Nav.Link
-            style={{ color: "#1cc7c1" }}
-            className="mr-5"
-            as={Link}
-            to="/admin"
-          >
-            Admin
-          </Nav.Link>
-          <Nav.Link style={{ color: "#1cc7c1" }} className="mr-5" href="#link">
+          <Nav.Link style={{ color: "#1cc7c1" }} className="mr-5" as={Link} to="/blogs">
             Blogs
           </Nav.Link>
-          <Nav.Link style={{ color: "#1cc7c1" }} className="mr-5" href="#link">
+          <Nav.Link style={{ color: "#1cc7c1" }} className="mr-5" as={Link} to="/contactus">
             Contact Us
           </Nav.Link>
         </Nav>
