@@ -7,7 +7,7 @@ const SignUp = () => {
     const [signUpStatus,setSignUpStatus]=useState(false);
     const onSubmit = (data) => {
         console.log(data);
-        fetch('http://localhost:5000/signUpUser',{
+        fetch('https://tranquil-thicket-49653.herokuapp.com/signUpUser',{
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify(data)

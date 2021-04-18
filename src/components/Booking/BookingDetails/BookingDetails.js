@@ -5,7 +5,7 @@ import "./BookingDetails.css";
 const BookingDetails = ({ bookingDate }) => {
   const [bookingData,setBookingData]=useState([])
   useEffect(() => {
-    fetch("http://localhost:5000/bookingData")
+    fetch("https://tranquil-thicket-49653.herokuapp.com/bookingData")
       .then((res) => res.json())
       .then((result) => setBookingData(result))
       .catch((err) => console.log(err));

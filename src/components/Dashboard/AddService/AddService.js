@@ -28,7 +28,7 @@ const AddService = () => {
     formData.append("sweaters", info.sweaters);
     formData.append("price", info.price);
 
-    fetch("http://localhost:5000/addAdminService", {
+    fetch("https://tranquil-thicket-49653.herokuapp.com/addAdminService", {
       method: "POST",
       body: formData,
     })

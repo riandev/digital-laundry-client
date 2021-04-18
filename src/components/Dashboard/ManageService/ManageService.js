@@ -6,7 +6,7 @@ const ManageService = () => {
   const [manageService, setManageService] = useState([]);
   console.log(manageService);
   useEffect(() => {
-    fetch("http://localhost:5000/bookingData")
+    fetch("https://tranquil-thicket-49653.herokuapp.com/bookingData")
       .then((res) => res.json())
       .then((data) => setManageService(data))
       .catch((err) => console.log(err));
@@ -14,7 +14,7 @@ const ManageService = () => {
   
   const handleDelete=(id) => {
       console.log(id);
-    fetch(`http://localhost:5000/deleteService/${id}`, {
+    fetch(`https://tranquil-thicket-49653.herokuapp.com/deleteService/${id}`, {
         method: "DELETE",
       })
         .then((res) => res.json())

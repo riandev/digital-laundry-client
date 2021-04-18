@@ -28,7 +28,7 @@ const AddBooking = () => {
     };
     setUserBookingData(userFinalBookking);
     console.log(userFinalBookking);
-    fetch("http://localhost:5000/userBookings", {
+    fetch("https://tranquil-thicket-49653.herokuapp.com/userBookings", {
       method: "POST",
       headers: { "Content-type": "application/json" },
       body: JSON.stringify(userFinalBookking),
@@ -39,7 +39,7 @@ const AddBooking = () => {
     e.preventDefault();
   };
   useEffect(() => {
-    fetch("http://localhost:5000/bookingData")
+    fetch("https://tranquil-thicket-49653.herokuapp.com/bookingData")
       .then((res) => res.json())
       .then((data) => setUserBooking(data))
       .catch((err) => console.log(err));

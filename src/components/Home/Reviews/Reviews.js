@@ -29,7 +29,7 @@ const Reviews = () => {
   const [revviewData,setRevviewData]=useState([]);
   
   useEffect(() => {
-fetch('http://localhost:5000/reviews')
+fetch('https://tranquil-thicket-49653.herokuapp.com/reviews')
 .then(res => res.json())
 .then(data => setRevviewData(data))
   }, [])

@@ -11,7 +11,7 @@ const BookingList = () => {
   // console.log(matchedBooking);
 
   useEffect(() => {
-    fetch("http://localhost:5000/userBookingStatus")
+    fetch("https://tranquil-thicket-49653.herokuapp.com/userBookingStatus")
       .then((res) => res.json())
       .then((data) => {
         setBookinngId(data);
@@ -22,7 +22,7 @@ const BookingList = () => {
   console.log(userEmail);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/booking/${userEmail}`)
+    fetch(`https://tranquil-thicket-49653.herokuapp.com/booking/${userEmail}`)
       .then((res) => res.json())
       .then((data) => {
         // console.log(data);

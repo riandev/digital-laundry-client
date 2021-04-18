@@ -24,7 +24,7 @@ const PaymentForm = ({userBookingData}) => {
       console.log(paymentMethod.id);
       const paymentWithUser={...userBookingData,paymentId: paymentMethod.id };
       
-      fetch('http://localhost:5000/userPaymentInfo',{
+      fetch('https://tranquil-thicket-49653.herokuapp.com/userPaymentInfo',{
         method: 'POST',
         headers: {'Content-type': 'application/json'},
         body: JSON.stringify(paymentWithUser)

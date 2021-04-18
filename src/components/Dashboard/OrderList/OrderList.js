@@ -7,7 +7,7 @@ const OrderList = () => {
   const [statusId,setStatusId]=useState(null);
   console.log(orderList);
   useEffect(() => {
-    fetch("http://localhost:5000/orderList")
+    fetch("https://tranquil-thicket-49653.herokuapp.com/orderList")
       .then((res) => res.json())
       .then((data) => setOrderList(data))
       .catch((err) => console.log(err));
@@ -26,7 +26,7 @@ const OrderList = () => {
       status: status
     };
     console.log(bookingStatus);
-    fetch('http://localhost:5000/bookingStatus',{
+    fetch('https://tranquil-thicket-49653.herokuapp.com/bookingStatus',{
       method: 'POST',
       headers: {'Content-type': 'application/json'},
       body: JSON.stringify(bookingStatus)
