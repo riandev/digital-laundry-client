@@ -6,6 +6,7 @@ const axios = require("axios");
 const AddService = () => {
   const [info, setInfo] = useState({});
   const [file, setFile] = useState(null);
+  const [status,setStatus]=useState(false);
   const handleBlur = (e) => {
     const newInfo = { ...info };
     newInfo[e.target.name] = e.target.value;
@@ -17,7 +18,7 @@ const AddService = () => {
     setFile(newFile);
   };
 
-  const handleSubmit = () => {
+  const handleSubmit = (e) => {
     const formData = new FormData();
     console.log(info);
     formData.append("file", file);
@@ -34,11 +35,12 @@ const AddService = () => {
     })
       .then((response) => response.json())
       .then((data) => {
-        console.log(data);
+        setStatus(data);
       })
       .catch((error) => {
         console.error(error);
       });
+      e.preventDefault();
   };
   return (
     <div className="w-50">
@@ -117,6 +119,7 @@ const AddService = () => {
           Submit
         </button>
       </form>
+      {status ===true && alert('Service Added Successfully')}
     </div>
   );
 };

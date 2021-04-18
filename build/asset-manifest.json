@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.61835aef.chunk.css",
+    "main.js": "/static/js/main.8d0fd434.chunk.js",
+    "main.js.map": "/static/js/main.8d0fd434.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c22acb56.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c22acb56.js.map",
+    "static/css/2.ef29786b.chunk.css": "/static/css/2.ef29786b.chunk.css",
+    "static/js/2.6da7e5b2.chunk.js": "/static/js/2.6da7e5b2.chunk.js",
+    "static/js/2.6da7e5b2.chunk.js.map": "/static/js/2.6da7e5b2.chunk.js.map",
+    "static/js/3.91098679.chunk.js": "/static/js/3.91098679.chunk.js",
+    "static/js/3.91098679.chunk.js.map": "/static/js/3.91098679.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.ef29786b.chunk.css.map": "/static/css/2.ef29786b.chunk.css.map",
+    "static/css/main.61835aef.chunk.css.map": "/static/css/main.61835aef.chunk.css.map",
+    "static/js/2.6da7e5b2.chunk.js.LICENSE.txt": "/static/js/2.6da7e5b2.chunk.js.LICENSE.txt",
+    "static/media/OurCapacity.css": "/static/media/capacitybg.a31b2756.jpg",
+    "static/media/chooseUs1.0c972f32.jpeg": "/static/media/chooseUs1.0c972f32.jpeg",
+    "static/media/chooseUs2.07e9b176.jpeg": "/static/media/chooseUs2.07e9b176.jpeg",
+    "static/media/chooseUs3.867e488a.jpeg": "/static/media/chooseUs3.867e488a.jpeg",
+    "static/media/cleaning.4588a9ac.png": "/static/media/cleaning.4588a9ac.png",
+    "static/media/delivery.4bafbc3f.png": "/static/media/delivery.4bafbc3f.png",
+    "static/media/Footer.css": "/static/media/footer-bg.f9bdf3e5.png",
+    "static/media/login.01849878.jpg": "/static/media/login.01849878.jpg",
+    "static/media/logo.3f04aca3.png": "/static/media/logo.3f04aca3.png",
+    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg",
+    "static/media/mainhead.92c83487.png": "/static/media/mainhead.92c83487.png",
+    "static/media/mainhead.ecf097d9.jpg": "/static/media/mainhead.ecf097d9.jpg",
+    "static/media/pickup-truck.1aeaf709.png": "/static/media/pickup-truck.1aeaf709.png",
+    "static/media/slick-theme.css": "/static/media/slick.c94f7671.ttf",
+    "static/media/smartphone.cde19844.png": "/static/media/smartphone.cde19844.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c22acb56.js",
+    "static/css/2.ef29786b.chunk.css",
+    "static/js/2.6da7e5b2.chunk.js",
+    "static/css/main.61835aef.chunk.css",
+    "static/js/main.8d0fd434.chunk.js"
+  ]
+}
